@@ -1,0 +1,56 @@
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Utility	KEYWORD1
+
+EthernetUdp	KEYWORD1
+EthernetUDP	KEYWORD1
+Time	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+i2c_faster	KEYWORD2
+i2c_default	KEYWORD2
+setPWMFrequency	KEYWORD2
+setADCFrequency	KEYWORD2
+adjustMillis	KEYWORD2
+adjustDelay	KEYWORD2
+forPinMode	KEYWORD2
+analogReadVoltage	KEYWORD2
+mapBig	KEYWORD2
+
+lcd	KEYWORD2
+
+analogReadResolution	KEYWORD2
+analogWriteResolution	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+util	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+PWM_DIV1	LITERAL1
+PWM_DIV8	LITERAL1
+PWM_DIV32	LITERAL1
+PWM_DIV64	LITERAL1
+PWM_DIV128	LITERAL1
+PWM_DIV256	LITERAL1
+PWM_DIV1024	LITERAL1
+ADC_DIV2	LITERAL1
+ADC_DIV4	LITERAL1
+ADC_DIV8	LITERAL1
+ADC_DIV16	LITERAL1
+ADC_DIV32	LITERAL1
+ADC_DIV64	LITERAL1
+ADC_DIV128	LITERAL1
+
+AR_DEFAULT	LITERAL1
+AR_INTERNAL	LITERAL1
+AR_EXTERNAL	LITERAL1
