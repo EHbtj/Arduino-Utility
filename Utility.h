@@ -31,6 +31,7 @@
 #define ADC_DIV64 64
 #define ADC_DIV128 128
 
+unsigned long adjustMicros(void);
 unsigned long adjustMillis(void);
 void adjustDelay(unsigned long ms);
 void forPinMode(int pinArray[],unsigned int num, uint8_t mode);

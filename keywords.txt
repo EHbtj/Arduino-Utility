@@ -16,6 +16,7 @@ i2c_faster	KEYWORD2
 i2c_default	KEYWORD2
 setPWMFrequency	KEYWORD2
 setADCFrequency	KEYWORD2
+adjustMicros	KEYWORD2
 adjustMillis	KEYWORD2
 adjustDelay	KEYWORD2
 forPinMode	KEYWORD2

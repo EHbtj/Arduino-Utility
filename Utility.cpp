@@ -83,6 +83,18 @@ double analogReadVoltage(uint8_t pin, double vref) {	// the 2nd parameter is opt
 	}
 }
 
+unsigned long adjustMicros(void) {
+  unsigned long m = micros();
+	switch (division) {
+		case 1: return m >> 6;
+		case 2: return m >> 3;
+		case 4: return m << 2;
+		case 5: return m << 4;
+		default: return m;
+	}
+}
+
+
 unsigned long adjustMillis(void) {
   unsigned long m = millis();
 	switch (division) {
